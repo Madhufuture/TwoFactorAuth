@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "E5pHlMxdxA7go1Z1M/ZaJeF9Vw9tGXG/Z9q/0aKXER2Q/WMgZWg+G08OCGEiuacwA1ZgMfI/tfiR8qCZu/LrFA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\msangara\\source\\repos\\TwoFactorAuth\\TwoFactorAuth.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\msangara\\.nuget\\packages\\googleauthenticator\\2.2.0\\googleauthenticator.2.2.0.nupkg.sha512",
+    "C:\\Users\\msangara\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "C:\\Users\\msangara\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\msangara\\.nuget\\packages\\qrcoder\\1.4.1\\qrcoder.1.4.1.nupkg.sha512",
+    "C:\\Users\\msangara\\.nuget\\packages\\system.drawing.common\\4.7.0\\system.drawing.common.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

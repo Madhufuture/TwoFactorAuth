@@ -1,0 +1,38 @@
+﻿@model HomeViewModel;
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<form asp-controller="Home" asp-action="Validate" method="post">
+
+
+    <div class="text-center">
+        <h1 class="display-4">Welcome</h1>
+    </div>
+    <div class="text-md-left">
+        @{
+            HomeViewModel homeViewModel = ViewBag.HomeModel;
+
+            <label>Email: @Model.Email</label>
+            <p>
+                <label>Scan the QR Code: </label>
+                <img src="@Url.Content(Model.QrCodeUrl)" />
+            </p>
+            <p>
+                <label>Auth code: @Model.AuthCode</label>
+            </p>
+        }
+        <input type="hidden" name="SecretCode" value="@Model.SecretKey" />
+    </div>
+    <div class="text-sm-center">
+        <label> Enter the code: </label>
+        <input type="text" name="UserCode" id="txtUserCode" />
+    </div>
+    <div class="text-sm-center">
+        <button type="submit">Submit</button>
+    </div>
+</form>
+
+
